@@ -1,0 +1,168 @@
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_22\" default=\"true\" project-jdk-name=\"openjdk-22\" project-jdk-type=\"JavaSDK\" />\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 9c7b3ea0c775472ca51de3a3b7d48e45982f8fce)
++++ b/.idea/misc.xml	(date 1765352350600)
+@@ -1,4 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="openjdk-22" project-jdk-type="JavaSDK" />
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="openjdk-22" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
+ </project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectModuleManager\">\r\n    <modules>\r\n      <module fileurl=\"file://$PROJECT_DIR$/.idea/ChinchiroClientServer.iml\" filepath=\"$PROJECT_DIR$/.idea/ChinchiroClientServer.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/src/src.iml\" filepath=\"$PROJECT_DIR$/src/src.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/test/test.iml\" filepath=\"$PROJECT_DIR$/test/test.iml\" />\r\n    </modules>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+--- a/.idea/modules.xml	(revision 9c7b3ea0c775472ca51de3a3b7d48e45982f8fce)
++++ b/.idea/modules.xml	(date 1765352350580)
+@@ -2,9 +2,7 @@
+ <project version="4">
+   <component name="ProjectModuleManager">
+     <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/ChinchiroClientServer.iml" filepath="$PROJECT_DIR$/.idea/ChinchiroClientServer.iml" />
+-      <module fileurl="file://$PROJECT_DIR$/src/src.iml" filepath="$PROJECT_DIR$/src/src.iml" />
+-      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
++      <module fileurl="file://$PROJECT_DIR$/ChinchiroClientServer.iml" filepath="$PROJECT_DIR$/ChinchiroClientServer.iml" />
+     </modules>
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e7442f53-640a-45b8-af3c-574b7c36c48d\" name=\"変更\" comment=\"a\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 1\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"36dqc3YX1Vf168JEStYIg2B9k6B\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Users/yuis1/IdeaProjects/ChinchiroClientServer\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240\" />\r\n        <option value=\"bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"アプリケーションレベル\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"デフォルトタスク\">\r\n      <changelist id=\"e7442f53-640a-45b8-af3c-574b7c36c48d\" name=\"変更\" comment=\"\" />\r\n      <created>1765346873321</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1765346873321</updated>\r\n      <workItem from=\"1765346876617\" duration=\"193000\" />\r\n      <workItem from=\"1765347086964\" duration=\"349000\" />\r\n      <workItem from=\"1765347465160\" duration=\"254000\" />\r\n      <workItem from=\"1765347737960\" duration=\"108000\" />\r\n      <workItem from=\"1765347881301\" duration=\"404000\" />\r\n      <workItem from=\"1765348303828\" duration=\"147000\" />\r\n      <workItem from=\"1765348466946\" duration=\"59000\" />\r\n      <workItem from=\"1765348528587\" duration=\"643000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"a\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1765346901464</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1765346901464</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"a\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1765346960393</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1765346960393</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"main\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"a\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"a\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 9c7b3ea0c775472ca51de3a3b7d48e45982f8fce)
++++ b/.idea/workspace.xml	(date 1765353972179)
+@@ -4,8 +4,11 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="e7442f53-640a-45b8-af3c-574b7c36c48d" name="変更" comment="a">
++    <list default="true" id="df3a188a-f41d-4aeb-986d-3b7943ae9e08" name="変更" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/test/src/control/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/control/ClientController.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -16,10 +19,10 @@
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="ProjectColorInfo">{
++  &quot;customColor&quot;: &quot;&quot;,
+   &quot;associatedIndex&quot;: 1
+ }</component>
+-  <component name="ProjectId" id="36dqc3YX1Vf168JEStYIg2B9k6B" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectId" id="36e1bbx3SSMGBabBpkxacNVuoKB" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+@@ -29,13 +32,13 @@
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "git-widget-placeholder": "main",
+     "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "C:/Users/yuis1/IdeaProjects/ChinchiroClientServer",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
+     "node.js.selected.package.eslint": "(autodetect)",
+     "node.js.selected.package.tslint": "(autodetect)",
+     "nodejs_package_manager_path": "npm",
+-    "vue.rearranger.settings.migration": "true"
++    "vue.rearranger.settings.migration": "true",
++    "アプリケーション.Main.executor": "Run"
+   }
+ }]]></component>
+   <component name="SharedIndexes">
+@@ -49,67 +52,18 @@
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="アプリケーションレベル" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="デフォルトタスク">
+-      <changelist id="e7442f53-640a-45b8-af3c-574b7c36c48d" name="変更" comment="" />
+-      <created>1765346873321</created>
++      <changelist id="df3a188a-f41d-4aeb-986d-3b7943ae9e08" name="変更" comment="" />
++      <created>1765352300913</created>
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+-      <updated>1765346873321</updated>
+-      <workItem from="1765346876617" duration="193000" />
+-      <workItem from="1765347086964" duration="349000" />
+-      <workItem from="1765347465160" duration="254000" />
+-      <workItem from="1765347737960" duration="108000" />
+-      <workItem from="1765347881301" duration="404000" />
+-      <workItem from="1765348303828" duration="147000" />
+-      <workItem from="1765348466946" duration="59000" />
+-      <workItem from="1765348528587" duration="643000" />
+-    </task>
+-    <task id="LOCAL-00001" summary="a">
+-      <option name="closed" value="true" />
+-      <created>1765346901464</created>
+-      <option name="number" value="00001" />
+-      <option name="presentableId" value="LOCAL-00001" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1765346901464</updated>
++      <updated>1765352300913</updated>
++      <workItem from="1765352302513" duration="208000" />
++      <workItem from="1765352675049" duration="19000" />
++      <workItem from="1765353309248" duration="658000" />
+     </task>
+-    <task id="LOCAL-00002" summary="a">
+-      <option name="closed" value="true" />
+-      <created>1765346960393</created>
+-      <option name="number" value="00002" />
+-      <option name="presentableId" value="LOCAL-00002" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1765346960393</updated>
+-    </task>
+-    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
+   </component>
+-  <component name="Vcs.Log.Tabs.Properties">
+-    <option name="TAB_STATES">
+-      <map>
+-        <entry key="MAIN">
+-          <value>
+-            <State>
+-              <option name="FILTERS">
+-                <map>
+-                  <entry key="branch">
+-                    <value>
+-                      <list>
+-                        <option value="main" />
+-                      </list>
+-                    </value>
+-                  </entry>
+-                </map>
+-              </option>
+-            </State>
+-          </value>
+-        </entry>
+-      </map>
+-    </option>
+-  </component>
+-  <component name="VcsManagerConfiguration">
+-    <MESSAGE value="a" />
+-    <option name="LAST_COMMIT_MESSAGE" value="a" />
+-  </component>
+ </project>
+\ No newline at end of file
