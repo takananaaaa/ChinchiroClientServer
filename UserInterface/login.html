@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>チンチロリン - ログイン</title>
-    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
     <style>
+        @font-face {
+            font-family: 'BananaSlip';
+            src: url('YDWbananaslipplus.otf') format('opentype');
+        }
+
         body {
-            font-family: sans-serif;
+            font-family: 'BananaSlip', sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -16,104 +20,131 @@
         }
 
         .game-title {
-            font-family: 'Mochiy Pop One', sans-serif;
-            font-size: 3rem;
+            font-size: 4rem;
             text-align: center;
             color: #ffcc00;
-            text-shadow: 3px 3px 0px #8b4513, -1px -1px 0px #8b4513, 1px -1px 0px #8b4513, -1px 1px 0px #8b4513, 1px 1px 0px #8b4513;
+            text-shadow: 4px 4px 0px #8b4513, -1px -1px 0px #8b4513, 1px -1px 0px #8b4513, -1px 1px 0px #8b4513, 1px 1px 0px #8b4513;
             margin-bottom: 2rem;
             letter-spacing: 5px;
         }
 
         .container {
             background: white;
-            padding: 2rem;
-            border-radius: 15px;
+            padding: 2.5rem;
+            border-radius: 20px;
             box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-            width: 350px;
-            border: 4px solid #8b4513;
+            width: 380px;
+            border: 5px solid #8b4513;
         }
 
-        .tabs { display: flex; margin-bottom: 1.5rem; border-bottom: 2px solid #ddd; }
+        .tabs { display: flex; margin-bottom: 1.5rem; border-bottom: 3px solid #ddd; }
         .tab {
             flex: 1;
-            padding: 0.5rem;
+            padding: 0.7rem;
             text-align: center;
             cursor: pointer;
             color: #999;
-            font-family: 'Mochiy Pop One', sans-serif;
+            font-size: 1.2rem;
         }
-        .tab.active { color: #8b4513; border-bottom: 3px solid #ffcc00; font-weight: bold; }
+        .tab.active { color: #8b4513; border-bottom: 4px solid #ffcc00; }
 
-        .form-group { margin-bottom: 1rem; }
-        label { display: block; margin-bottom: 0.3rem; font-size: 0.9rem; font-weight: bold; color: #555; }
+        .form-group { margin-bottom: 1.2rem; }
+        label { display: block; margin-bottom: 0.5rem; font-size: 1rem; color: #555; }
+
         input {
+            font-family: 'BananaSlip', sans-serif;
             width: 100%;
-            padding: 0.7rem;
+            padding: 0.8rem;
             border: 2px solid #ddd;
-            border-radius: 8px;
+            border-radius: 10px;
             box-sizing: border-box;
+            font-size: 1rem;
             outline: none;
         }
         input:focus { border-color: #ffcc00; }
 
         button {
+            font-family: 'BananaSlip', sans-serif;
             width: 100%;
-            padding: 0.8rem;
+            padding: 1rem;
             background-color: #8b4513;
             color: white;
             border: none;
-            border-radius: 25px;
+            border-radius: 30px;
             cursor: pointer;
             margin-top: 1rem;
-            font-family: 'Mochiy Pop One', sans-serif;
-            font-size: 1.1rem;
-            transition: transform 0.1s;
+            font-size: 1.3rem;
+            transition: all 0.2s;
+            box-shadow: 0 4px 0px #5d2e0d;
         }
-        button:hover { background-color: #a0522d; transform: scale(1.02); }
+        button:hover { background-color: #a0522d; transform: translateY(-2px); box-shadow: 0 6px 0px #5d2e0d; }
+        button:active { transform: translateY(2px); box-shadow: none; }
 
-        .error-message { color: red; font-size: 0.8rem; margin-top: 0.5rem; display: none; text-align: center; }
+        .error-message { color: red; font-size: 0.9rem; margin-top: 0.8rem; display: none; text-align: center; }
         .hidden { display: none; }
     </style>
 </head>
 <body>
 
 <div>
-    <h1 class="game-title">チンチロリン</h1>
+<h1 class="game-title">チンチロリン</h1>
 
-    <div class="container">
-        <div class="tabs">
-            <div id="loginTab" class="tab active" onclick="switchTab('login')">ログイン</div>
-            <div id="signupTab" class="tab" onclick="switchTab('signup')">新規登録</div>
-        </div>
-
-        <div id="loginForm">
-            <div class="form-group">
-                <label>ユーザ名</label>
-                <input type="text" id="loginId" placeholder="ユーザ名を入力">
-            </div>
-            <div class="form-group">
-                <label>パスワード</label>
-                <input type="password" id="loginPass" placeholder="パスワードを入力">
-            </div>
-            <button onclick="login()">ログイン</button>
-        </div>
-
-        <div id="signupForm" class="hidden">
-            <div class="form-group">
-                <label>ユーザ名</label>
-                <input type="text" id="signupId" placeholder="新しいユーザ名">
-            </div>
-            <div class="form-group">
-                <label>パスワード</label>
-                <input type="password" id="signupPass" placeholder="新しいパスワード">
-            </div>
-            <button onclick="signup()">登録する！</button>
-        </div>
-
-        <div id="msgDisplay" class="error-message"></div>
+<div class="container">
+    <div class="tabs">
+        <div id="loginTab" class="tab active" onclick="switchTab('login')">ログイン</div>
+        <div id="signupTab" class="tab" onclick="switchTab('signup')">新規登録</div>
     </div>
+
+    <div id="loginForm">
+        <div class="form-group">
+            <label>ユーザ名</label>
+            <input type="text" id="loginId" placeholder="ユーザ名を入力">
+        </div>
+        <div class="form-group">
+            <label>パスワード</label>
+            <input type="password" id="loginPass" placeholder="パスワードを入力">
+        </div>
+        <button onclick="login()">ログイン</button>
+    </div>
+
+    <div id="signupForm" class="hidden">
+        <div class="form-group">
+            <label>ユーザ名</label>
+            <input type="text" id="signupId" placeholder="新しいユーザ名">
+        </div>
+        <div class="form-group">
+            <label>パスワード</label>
+            <input type="password" id="signupPass" placeholder="新しいパスワード">
+        </div>
+        <button onclick="signup()">登録する！</button>
+    </div>
+
+    <div id="msgDisplay" class="error-message"></div>
 </div>
+</div>
+
+<script>
+    function switchTab(type) {
+    const isLogin = type === 'login';
+    document.getElementById('loginForm').classList.toggle('hidden', !isLogin);
+    document.getElementById('signupForm').classList.toggle('hidden', isLogin);
+    document.getElementById('loginTab').classList.toggle('active', isLogin);
+    document.getElementById('signupTab').classList.toggle('active', !isLogin);
+    document.getElementById('msgDisplay').style.display = 'none';
+}
+
+function login() {
+    const id = document.getElementById('loginId').value;
+    const pass = document.getElementById('loginPass').value;
+    console.log("Login call:", id, pass);
+}
+
+function signup() {
+    const id = document.getElementById('signupId').value;
+    const pass = document.getElementById('signupPass').value;
+    console.log("Signup call:", id, pass);
+}
+</script>
 
 </body>
 </html>
