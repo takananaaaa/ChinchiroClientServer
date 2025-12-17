@@ -4,193 +4,134 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18d476ea-378d-46f9-8bb2-d5f9b8d9e905" name="変更" comment="User Interface" />
+    <list default="true" id="e7442f53-640a-45b8-af3c-574b7c36c48d" name="変更" comment="a">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="make-clientController" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;BP23090&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/takananaaaa/ChinchiroClientServer.git&quot;,
-    &quot;accountId&quot;: &quot;44e57996-9e5f-4859-92e8-f0bf7ce06f0f&quot;
-  }
-}</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
+  &quot;associatedIndex&quot;: 1
 }</component>
-  <component name="ProjectId" id="36dpAnNZQCMOTVzY5vSCq3X0AUL" />
+  <component name="ProjectId" id="36dqc3YX1Vf168JEStYIg2B9k6B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "<不明>",
-    "onboarding.tips.debug.path": "C:/Users/kagep/IdeaProjects/ChinchiroClientServer/test/src/Main.java",
-    "project.structure.last.edited": "モジュール",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "アプリケーション.Main (1).executor": "Run",
-    "アプリケーション.Main.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/yuis1/IdeaProjects/ChinchiroClientServer&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="アプリケーション.Main (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="src" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="アプリケーション.Main (1)" />
+        <item itemvalue="アプリケーション.Main" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="アプリケーションレベル" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="デフォルトタスク">
-      <changelist id="18d476ea-378d-46f9-8bb2-d5f9b8d9e905" name="変更" comment="" />
-      <created>1765346162033</created>
+      <changelist id="e7442f53-640a-45b8-af3c-574b7c36c48d" name="変更" comment="" />
+      <created>1765346873321</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1765346162033</updated>
+      <updated>1765346873321</updated>
+      <workItem from="1765346876617" duration="193000" />
+      <workItem from="1765347086964" duration="349000" />
+      <workItem from="1765347465160" duration="254000" />
+      <workItem from="1765347737960" duration="108000" />
+      <workItem from="1765347881301" duration="404000" />
+      <workItem from="1765348303828" duration="147000" />
+      <workItem from="1765348466946" duration="59000" />
+      <workItem from="1765348528587" duration="643000" />
+      <workItem from="1765947738108" duration="113000" />
+      <workItem from="1765948108379" duration="8000" />
+      <workItem from="1765950666719" duration="710000" />
     </task>
-    <task id="LOCAL-00001" summary="first">
+    <task id="LOCAL-00001" summary="a">
       <option name="closed" value="true" />
-      <created>1765346435287</created>
+      <created>1765346901464</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1765346435287</updated>
+      <updated>1765346901464</updated>
     </task>
-    <task id="LOCAL-00002" summary="first">
+    <task id="LOCAL-00002" summary="a">
       <option name="closed" value="true" />
-      <created>1765346481977</created>
+      <created>1765346960393</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1765346481977</updated>
+      <updated>1765346960393</updated>
     </task>
-    <task id="LOCAL-00003" summary="first">
-      <option name="closed" value="true" />
-      <created>1765346578614</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1765346578614</updated>
-    </task>
-    <task id="LOCAL-00004" summary="first">
-      <option name="closed" value="true" />
-      <created>1765346757318</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1765346757318</updated>
-    </task>
-    <task id="LOCAL-00005" summary="first">
-      <option name="closed" value="true" />
-      <created>1765346813344</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1765346813344</updated>
-    </task>
-    <task id="LOCAL-00006" summary="first">
-      <option name="closed" value="true" />
-      <created>1765347024158</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1765347024158</updated>
-    </task>
-    <task id="LOCAL-00007" summary="first">
-      <option name="closed" value="true" />
-      <created>1765347148450</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1765347148450</updated>
-    </task>
-    <task id="LOCAL-00008" summary="first">
-      <option name="closed" value="true" />
-      <created>1765347472240</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1765347472240</updated>
-    </task>
-    <task id="LOCAL-00009" summary="test">
-      <option name="closed" value="true" />
-      <created>1765347630605</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1765347630605</updated>
-    </task>
-    <task id="LOCAL-00010" summary="test">
-      <option name="closed" value="true" />
-      <created>1765347734693</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1765347734693</updated>
-    </task>
-    <task id="LOCAL-00011" summary="User Interface">
-      <option name="closed" value="true" />
-      <created>1765347960331</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1765347960331</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first" />
-    <MESSAGE value="test" />
-    <MESSAGE value="User Interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="User Interface" />
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
   </component>
 </project>
