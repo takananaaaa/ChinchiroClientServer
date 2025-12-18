@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>チンチロリン - ホーム</title>
+    <style>
+    @font-face {
+    font-family: 'BananaSlip';
+    src: url('YDWbananaslipplus.otf') format('opentype');
+    }
+
+    body {
+         font-family: 'BananaSlip', sans-serif;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+         background-color: #f7e7ce;
+         margin: 0;
+    }
+
+    .game-title {
+         font-size: 4rem;
+         text-align: center;
+         color: #ffcc00;
+         text-shadow: 4px 4px 0px #8b4513, -1px -1px 0px #8b4513, 1px -1px 0px #8b4513, -1px 1px 0px #8b4513, 1px 1px 0px #8b4513;
+         margin-bottom: 2rem;
+         letter-spacing: 5px;
+    }
+
+    button {
+         font-family: 'BananaSlip', sans-serif;
+         width: 50%;
+         padding: 1rem;
+         background-color: #8b4513;
+         color: white;
+         border: none;
+         border-radius: 30px;
+         cursor: pointer;
+         margin-top: 1rem;
+         font-size: 1.3rem;
+         transition: all 0.2s;
+         box-shadow: 0 4px 0px #5d2e0d;
+        }
+        button:hover { background-color: #a0522d; transform: translateY(-2px); box-shadow: 0 6px 0px #5d2e0d; }
+        button:active { transform: translateY(2px); box-shadow: none; }
+
+
+    .user-panel {
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px 16px;
+        border-radius: 20px;
+
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        font-size: 1rem;
+    }
+
+    .logout-btn {
+        width: auto;
+        padding: 0.4rem 0.8rem;
+        font-size: 1rem;
+        margin-top: 0;
+    }
+
+    </style>
+</head>
+
+<body>
+<h1 class="game-title">チンチロリン</h1>
+<button onclick="Matching">群れに合流する</button>
+
+<div class="user-panel">
+    <span id="username">ユーザー名</span>
+    <button class="logout-btn" onclick="logout()">森に帰る</button>
+</div>
+
+</body>
+</html>
+
+<script>
+    function setUsername(name) {
+        document.getElementById("username").textContent = name;
+    }
+
+    function logout() {
+        alert("ログアウトしました");
+    }
+</script>
